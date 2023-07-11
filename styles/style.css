@@ -1,9 +1,11 @@
 .banner-container{
     display: flex;
     justify-content: space-around;
-    height: 86vh;
+    height: 111vh;
     background-color: rgba(229, 84, 115, 0.10);
 }
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
 .banner-img{
     height: 520px;
     width: 430px;
@@ -80,7 +82,7 @@ background:rgba(5, 151, 160, 0.15);
 
 
 /*3rd section*/
-.delivery-container{
+/*.delivery-container{
     display: flex;
     justify-content: space-around;
     background-color: rgba(39, 39, 39, 0.05);
@@ -93,7 +95,7 @@ margin-right: 100px;
 box-shadow: #272727;
 
 
-}
+}*/
 /*4th sectiona*/
 .sale-section{
     display: flex;
