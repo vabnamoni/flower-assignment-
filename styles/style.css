@@ -1,13 +1,13 @@
 .banner-container{
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    height: 86vh;
     background-color: rgba(229, 84, 115, 0.10);
 }
 .banner-img{
     height: 520px;
     width: 430px;
-    margin-top: 33px;
+    margin-top: 100px;
     margin-right: 100px;
     
 }
@@ -33,10 +33,20 @@ padding-top: 10px;
 padding-bottom: 20px;
 }
 /*flower box 2nd section */
+.flower-heading{
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 40px;
+}
 .flower-box{
     display: flex;
     justify-content: space-around;
+    text-align: center;
     
+    
+}
+.flowerbox1{
+    text-align: center;
 }
 .flower2ndsection-container{
     height: 100vh;
@@ -46,6 +56,8 @@ padding-bottom: 20px;
     height: 350px;
     border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
+
+
 
 }
 .imgae-decoration2{
@@ -60,4 +72,136 @@ background:rgba(5, 151, 160, 0.15);
     height: 350px;
     border-radius: 300px 300px 0px 0px;
     background-color:rgba(71, 125, 17, 0.15);
+}
+.link{
+    color: #272727;
+    text-align: center;
+}
+
+
+/*3rd section*/
+.delivery-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    width: 1440px;
+
+margin-left: 100px;
+margin-right: 100px;
+
+box-shadow: #272727;
+
+
+}
+/*4th sectiona*/
+.sale-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+}
+.sale-image{
+height: 315px;
+width: 215px;
+margin-top: 80px;
+margin-bottom: 80px;
+margin-right: 120px;
+}
+.sale-text-p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+}
+.btn2{
+align-items: flex-start;
+padding: 20px 43px;
+margin-left: 150px;
+margin-top: 20px;
+}
+
+/*instagram*/
+.instagram{
+    height: 100vh;
+}
+.ins-text{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+
+
+}
+.ins-text2{
+    text-align: center;
+    padding-top: 20px;
+}
+.insta-picture{
+    display: flex;
+    justify-content: space-around;
+
+}
+.insta-img1{
+    width: 230px;
+    
+    
+}
+.insta-picture{
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 100px;
+gap: 2px;
+}
+.insta-img{
+gap: 2px;
+}
+
+/*form section*/
+.form_section{
+    background-image: url(../Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: contain;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.main-form{
+    text-align: center;
+    padding-top: 100px;
+}
+.form-Header{
+    font-size: 35px;
+}
+.email-form{
+    border-radius: 3px;
+background: #FFF;
+border: none;
+width: 480px;
+height: 40px;
+text-align: center;
+margin-top: 50px;
+}
+.btn3{
+    margin-left: 20px;
+    border-radius: 8px;
+background: #E55473;
+padding: 10px 30px;
+border: none;
+color: white;
+}
+
+/*footer*/
+.footer-design{
+    background-color: black;
+    color: white;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    padding-top: 120px;
+}
+.span-design{
+    color: #E55473;
 }
