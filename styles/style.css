@@ -1,11 +1,23 @@
 .banner-container{
     display: flex;
     justify-content: space-around;
-    height: 111vh;
+    height: 108vh;
     background-color: rgba(229, 84, 115, 0.10);
 }
-font-family: 'Lato', sans-serif;
+*{font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
+}
+.bnt{
+    border-radius: 8px;
+background: #E55473;
+color: #FFF;
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 25px;
+margin-left: 20px;
+}
 .banner-img{
     height: 520px;
     width: 430px;
@@ -21,11 +33,13 @@ font-family: 'Open Sans', sans-serif;
     color: #272727;
 font-family: Lato;
 font-size: 40px;
+padding-left: 20px;
 
 }
 .banner-text{
-    margin-left: 100px;
-    margin-top: 70px;
+    margin-left: 130px;
+    margin-top: 190px;
+    padding-top: 20px;
 }
 .banner-title2{
     color: rgba(39, 39, 39, 0.60);
@@ -33,6 +47,7 @@ font-family: Lato;
 font-size: 18px;
 padding-top: 10px;
 padding-bottom: 20px;
+padding-left: 20px;
 }
 /*flower box 2nd section */
 .flower-heading{
@@ -103,6 +118,7 @@ box-shadow: #272727;
     align-items: center;
     background-color:rgba(229, 84, 115, 0.05);
     border-radius: 8px;
+    
 }
 .sale-image{
 height: 315px;
@@ -117,12 +133,18 @@ text-align: center;
 font-family: Lato;
 font-size: 18px;
 font-style: normal;
+
 }
 .btn2{
-align-items: flex-start;
-padding: 20px 43px;
-margin-left: 150px;
-margin-top: 20px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 20px;
 }
 
 /*instagram*/
@@ -168,11 +190,13 @@ gap: 2px;
     background-size: contain;
     margin-left: 150px;
     margin-right: 150px;
+    margin-top: 100px;
 
 }
 .main-form{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
+
 }
 .form-Header{
     font-size: 35px;
@@ -181,10 +205,10 @@ gap: 2px;
     border-radius: 3px;
 background: #FFF;
 border: none;
-width: 480px;
+width: 350px;
 height: 40px;
 text-align: center;
-margin-top: 50px;
+margin-top: 10px;
 }
 .btn3{
     margin-left: 20px;
